@@ -1,0 +1,20 @@
+@hideAll
+@hideAnna
+@hideLocationBut
+
+@back valeria_office.Crossfades id:ValeriaOffice time:1.5
+@char Player.Player-smiled scale:1.25
+
+Player: Hmm...
+Player: Where is Valeria?
+Player: Maybe I should check the kitchen?
+
+@hideChars
+@hidePrinter
+
+@changeQuest
+
+@set SawAnna="GiveATicket"
+
+@showLocationBut
+@stop

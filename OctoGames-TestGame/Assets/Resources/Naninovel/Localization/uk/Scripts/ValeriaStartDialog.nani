@@ -1,0 +1,53 @@
+; English <en> to Ukrainian <uk> localization document for `ValeriaStartDialog` naninovel script
+
+# fd35ddfe
+; Player: Good afternoon, Valeria! How's work going?
+Player: Добрий день, Валерія! Як справи із роботою?
+
+# c74e4670
+; Valeria: Good afternoon, {player}! I'm having a bit of trouble, I forgot the password, and to recover it I need to take a test or contact the security department.
+Valeria: Добрий день, {player}! Трішки не справляюсь, я забула пароль, а щоб його відновити потрібно пройти тест або звернутись до відділу безпеки.
+
+# b632c651
+; Player: I don’t want to disappoint you, but it’s already closed for today.
+Player: Не хочу тебе розчаровувати, але він на сьогодні вже закритий.
+
+# 27f4fbd7
+; Valeria: Oh, that’s really sad... I was planning to go to a concert tomorrow...
+Valeria: Оу, це дуже сумно... Я хотіла сходити завтра на концерт...
+
+# e8a14519
+; Player: Don’t worry. I help you.
+Player: Не переймайся, я допоможу тобі.
+
+# 3958f51f
+; Valeria: I would be very grateful to you.
+Valeria: Буду Вам дуже вдячна.
+
+# 77fd4358
+; Valeria: Phew, we made it. Thank you for your help, I'm in your debt!
+Valeria: Фух, ми справились. Дякую за допомогу, я Ваша боржниця!
+
+# 7086ce50
+; Player: You mentioned a concert. What is this concert about?
+Player: Ви говорили про концерт.  А що це за концерт?
+
+# 353f16a4
+; Valeria: Beables. I absolutely love this band.
+Valeria: Beables. Обожнюю цю групу.
+
+# 896c0bc5
+; Player: Oh yes, they are really cool.
+Player: О так, це дійсно крута група.
+
+# 4b1388bf
+; Valeria: Though now I'm not sure if I’ll go. The time freed up, but my friend, with whom I was supposed to go, canceled at the last minute. Would you like to join me?
+Valeria: Хоча зараз не впевнена чи піду, час звільнився, але подруга, з якою я мала йти відмовилась в останній момент. А Ви не хотіли б скасти мені компанію?
+
+# 5d61ad8a
+; Player: I'll reply to you a bit later, but most likely, yes.
+Player: Я тобі трішки пізніше відповім, але скоріш за все зможу.
+
+# 7cb1fa1a
+; Valeria: I’d be really happy if you went with me!
+Valeria: Я була б дуже рада, якщо Ви підете зі мною!

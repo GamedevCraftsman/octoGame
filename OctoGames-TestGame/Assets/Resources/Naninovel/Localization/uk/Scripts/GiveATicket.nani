@@ -1,0 +1,33 @@
+; English <en> to Ukrainian <uk> localization document for `GiveATicket` naninovel script
+
+# cf85adf
+; Anna: {player}, so are you going to the concert tomorrow or not?
+Anna: {player}, то як, ти йдеш завтра на концерт чи ні?
+
+# 2572344b
+; Valeria: What concert?
+Valeria: Який концерт?
+
+# fbc9e4ac
+; Anna: Beables.
+Anna: Beables.
+
+# ababfd8d
+; Valeria: I also invited {player} to go to this concert.
+Valeria: Я також запросила {player} на концерт.
+
+# b635dc20
+; Anna: Oh... So, who will you choose? Your old friend or some newcomer?
+Anna: Ох... Так кого ти обереш? Свою давню подругу чи новеньку?
+
+# e8c5a4eb
+; @choice "I’ll choose my old friend, sorry Valeria." goto:.ChooseAnna
+@choice "Я оберу давню подругу, пробач, Валеріє." goto:.ChooseAnna
+
+# 7a3a0b8e
+; @choice "Sorry Anna, but I want to go out with Valeria." goto:.ChooseValeria
+ @choice "Пробач, Анно, але я піду з Валерією." goto:.ChooseValeria
+
+# 180e2115
+; @choice "You know, I'll go to the concert alone. I don’t want to upset anyone." goto:.ChooseMyself
+@choice "Знаєте, а я один піду на концерт. Не хочу когось розчарувати" goto:.ChooseMyself

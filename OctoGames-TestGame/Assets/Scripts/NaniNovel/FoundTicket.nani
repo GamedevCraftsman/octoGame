@@ -1,0 +1,11 @@
+@spawn ShakePrinter wait:false
+Player: Here it is!
+Player: I’m heading to Valeria's office to give it to her.
+
+@changeQuest
+
+@set SawValeria="EmptyPlace"
+@hidePrinter
+@showLocationBut
+
+@stop

@@ -1,0 +1,9 @@
+@if MyCabinet=="StartDialog"
+@goto MyCabStartDialog
+
+@elseIf MyCabinet=="SearchTicket"
+@disableMyCabBut
+@goto SearchTicket
+
+@endIf
+@stop

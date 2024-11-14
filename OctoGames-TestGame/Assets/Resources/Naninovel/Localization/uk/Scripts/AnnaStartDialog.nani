@@ -1,0 +1,41 @@
+; English <en> to Ukrainian <uk> localization document for `AnnaStartDialog` naninovel script
+
+# 5f544d17
+; @input player summary:"Enter your name, please"
+@input player summary:"Введіть, будь ласка, своє ім'я"
+
+# 2dc0d730
+; Anna: It’s so hard to work, {player}...
+Anna: Як важко працювати, {player}...
+
+# 659213a3
+; Player: If I’m not mistaken, you should be having a vacation soon.
+Player: Якщо я не помиляюсь, то в тебе повинна бути скоро відпустка.
+
+# 11b1b4ad
+; Anna: Yes, it starts tomorrow. Finally, I’ll get some rest.
+Anna: Так, вона почнеться із завтрішнього дня. Нарешті вдоволь відпочину
+
+# c2e79236
+; Player: Are you planning to go anywhere for your vacation?
+Player: Плануєш кудись поїхати на відпочинок?
+
+# 65c42419
+; Anna: No, but I’m thinking of going to a Beables concert. But I don’t want to go alone.
+Anna: Ні, але думаю сходити на концерт Beables, але одній не хочеться.
+
+# c12d1830
+; Player: Alone?
+Player: Одна?
+
+# a8a3f9b2
+; Anna: Yes, I’m on my own now. I don’t want to talk about it. Would you like to join me?
+Anna: Так, тепер я сама. Не хочу про це говорити. А Ви не хотіли б скасти мені компанію?
+
+# 9fcb5b8c
+; Player: I’ll let you know by the evening, but for now, I’m going to check on the new one to see if she’s handling her tasks well.
+Player: Я відповім тобі до вечора, а поки йтиму провідаю новеньку, чи справляється із завданнями.
+
+# 99965a00
+; Anna: Alright, I’ll wait for your answer.
+Anna: Добре, чекатиму на відповідь)

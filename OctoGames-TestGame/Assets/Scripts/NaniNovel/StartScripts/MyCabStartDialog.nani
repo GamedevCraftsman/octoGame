@@ -1,0 +1,16 @@
+@hideAnna
+@hideValeria
+@hideLocationBut
+
+@hideAll
+
+@back boss_office.Crossfade id:BossOffice time:1.5
+@char Player.Player-serious scale:1.25
+
+Player: I have nothing to do here.
+
+@hideChars
+@hidePrinter
+
+@showLocationBut
+@stop

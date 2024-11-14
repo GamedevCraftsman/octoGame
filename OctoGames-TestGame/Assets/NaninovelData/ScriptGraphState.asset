@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
+  m_Name: ScriptGraphState
+  m_EditorClassIdentifier: 
+  NodesState:
+  - scriptName: KitchenComunication
+    position:
+      serializedVersion: 2
+      x: 562.4
+      y: 0
+      width: 176
+      height: 124.8
+  - scriptName: AnnaStartDialog
+    position:
+      serializedVersion: 2
+      x: 228
+      y: 0
+      width: 140
+      height: 76.8
+  - scriptName: AnnaWaitingDialog
+    position:
+      serializedVersion: 2
+      x: 388
+      y: 0
+      width: 154.40002
+      height: 76.8
+  - scriptName: ValeriaOfficeCommunication
+    position:
+      serializedVersion: 2
+      x: 1112.8
+      y: 0
+      width: 208.79993
+      height: 124.8
+  - scriptName: ValeriaStartDialog
+    position:
+      serializedVersion: 2
+      x: 758.4
+      y: 0
+      width: 149.59998
+      height: 76.8
+  - scriptName: ValeriaWaitingDialog
+    position:
+      serializedVersion: 2
+      x: 928
+      y: 0
+      width: 164.80005
+      height: 76.8
+  - scriptName: BossCabinet
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 119.2
+      height: 76.8
+  - scriptName: MyCabinetCommunication
+    position:
+      serializedVersion: 2
+      x: 0
+      y: 76.8
+      width: 197.6
+      height: 76.799995

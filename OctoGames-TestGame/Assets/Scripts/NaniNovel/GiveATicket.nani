@@ -1,0 +1,65 @@
+@hideLocationBut
+@hideQuestLog
+@back kitchen.Blinds id:Kitchen time:1
+
+;Anna.Anna-angry
+@char Anna.Anna-smiled scale:1.25 tint:#828282
+@char Player.Player-smiled scale:1.25 tint:#828282
+@char Valeria.Valeria-smile scale:1.25 tint:#828282
+
+@char Anna tint:#ffffff
+@char Anna scale:1.5
+Anna: {player}, so are you going to the concert tomorrow or not?
+@char Anna scale:1.25
+@char Anna tint:#828282
+
+@char Valeria tint:#ffffff
+@char Valeria scale:1.5
+Valeria: What concert?
+@char Valeria scale:1.25
+@char Valeria tint:#828282
+
+@char Anna tint:#ffffff
+@char Anna scale:1.5
+Anna: Beables.
+@char Anna scale:1.25
+@char Anna tint:#828282
+
+@char Valeria tint:#ffffff
+;Spawn shocked Valeria
+@spawn ShakeCharacter params:Valeria,1 wait:false
+@char Valeria.Shocked
+;
+@char Valeria scale:1.5
+Valeria: I also invited {player} to go to this concert.
+@char Valeria scale:1.25
+@char Valeria tint:#828282
+
+@char Anna tint:#ffffff
+;Spawn angry Anna
+@char Anna.Anna-angry transition:Crossfade
+;
+@char Anna scale:1.5
+Anna: Oh... So, who will you choose? Your old friend or some newcomer?
+@char Anna scale:1.25
+@char Anna tint:#828282
+
+@char Player tint:#ffffff
+@char Player scale:1.5
+
+@choice "I’ll choose my old friend, sorry Valeria." goto:.ChooseAnna
+@choice "Sorry Anna, but I want to go out with Valeria." goto:.ChooseValeria
+@choice "You know, I'll go to the concert alone. I don’t want to upset anyone." goto:.ChooseMyself
+@stop
+
+# ChooseAnna
+@goto ChooseAnna
+
+
+# ChooseValeria
+@goto ChooseValeria
+
+# ChooseMyself
+@goto ChooseMyself
+
+@stop

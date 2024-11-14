@@ -1,0 +1,72 @@
+@input player summary:"Enter your name, please"
+@stop
+
+@back kitchen.Blinds id:Kitchen time:1
+
+@char Anna.Anna-smiled scale:1.25
+@char Player.Player-smiled scale:1.25
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: It’s so hard to work, {player}...
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: If I’m not mistaken, you should be having a vacation soon.
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: Yes, it starts tomorrow. Finally, I’ll get some rest.
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: Are you planning to go anywhere for your vacation?
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: No, but I’m thinking of going to a Beables concert. But I don’t want to go alone.
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: Alone?
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: Yes, I’m on my own now. I don’t want to talk about it. Would you like to join me?
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: I’ll let you know by the evening, but for now, I’m going to check on the new one to see if she’s handling her tasks well.
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: Alright, I’ll wait for your answer.
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@hideAll
+
+@showQuestLog
+@changeQuest
+
+@back kitchen.Blinds id:Kitchen time:1
+@showAnna
+@showLocationBut
+
+@stop

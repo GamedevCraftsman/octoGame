@@ -1,0 +1,43 @@
+@hideAnna
+@hideValeria
+@hideLocationBut
+
+@hideAll
+
+@back valeria_office.Crossfades id:ValeriaOffice time:1.5
+@char Valeria.Valeria-shocked scale:1.25
+@char Player.Player-smiled scale:1.25
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: Thanks, but I don't need your help anymore, I'm not busy tomorrow anyway...
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: Sorry, but...
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: Don't worry.
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: ...
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@hideAll
+
+@back valeria_office.Crossfades id:ValeriaOffice time:1.5
+
+@set MyCabinet="SearchTicket"
+@showLocationBut
+@showValeria
+
+@stop

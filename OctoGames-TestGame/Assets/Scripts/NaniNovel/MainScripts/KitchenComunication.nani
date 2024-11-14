@@ -1,0 +1,21 @@
+@if SawAnna=="StartDialog"
+@set SawAnna="WaitingDialog"
+@goto AnnaStartDialog
+
+@elseIf SawAnna=="WaitingDialog"
+@goto AnnaWaitingDialog
+
+@elseIf SawAnna="GiveATicket"
+@goto GiveATicket
+
+@elseIf SawAnna=="Chosen"
+@goto HappyAnna
+
+@elseIf SawAnna=="Angry"
+@goto SadAnna
+
+@elseIf SawAnna=="ChooseBoss"
+@goto AngryAnna
+
+@endIf
+@stop

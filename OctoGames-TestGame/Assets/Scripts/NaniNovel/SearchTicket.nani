@@ -1,0 +1,25 @@
+@hideAnna
+@hideValeria
+@hideLocationBut
+
+@hideAll
+
+@back boss_office.Crossfade id:BossOffice time:1.5
+@char Player.Player-smiled scale:1.25
+
+;Monolog
+Player: I should go out with the new worker. I'm sure it would improve our relationship, and I’ll just tell Anna I will have been busy tomorrow.
+Player: Now I need to find the ticket. It was somewhere on the table.
+
+@hideChars
+@hidePrinter
+
+@back table.Crossfade id:BossOfficeTable time:1.5
+
+Player: The ticket should be around here somewhere.
+
+@hideChars
+@hidePrinter
+
+@activateConcertTicket
+@stop

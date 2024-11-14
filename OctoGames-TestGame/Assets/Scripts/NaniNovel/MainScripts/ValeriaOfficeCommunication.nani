@@ -1,0 +1,21 @@
+@if SawValeria=="StartDialog"
+@set SawValeria="WaitingDialog"
+@goto ValeriaStartDialog
+
+@elseIf SawValeria=="WaitingDialog"
+@goto ValeriaWaitingDialog
+
+@elseIf SawValeria=="EmptyPlace"
+@goto EmptyValeriasOffice
+
+@elseIf SawValeria=="Chosen"
+@goto HappyValeria
+
+@elseIf SawValeria=="Angry"
+@goto SadValeria
+
+@elseIf SawValeria=="ChooseBoss"
+@goto AngryValeria
+
+@endIf
+@stop

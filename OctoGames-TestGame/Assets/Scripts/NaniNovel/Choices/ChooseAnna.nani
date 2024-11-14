@@ -1,0 +1,26 @@
+@char Player scale:1.25
+@char Player tint:#828282
+
+@char Anna tint:#ffffff
+@char Anna scale:1.5
+Anna: Thank you.
+@char Anna scale:1.25
+@char Anna tint:#828282
+
+@char Valeria tint:#ffffff
+@char Valeria scale:1.5
+;Spawn angry Valeria
+@char Valeria.Valeria-angry transition:Crossfade
+;
+Valeria: Ok.
+
+@set SawAnna="Chosen"
+@set SawValeria="Angry"
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+@showAnna
+@showLocationBut
+
+@stop

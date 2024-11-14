@@ -1,0 +1,31 @@
+@hideLocationBut
+@hideAnna
+@hideValeria
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+
+@char Anna.Anna-smiled scale:1.25
+@char Player.Player-smiled scale:1.25
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: I always knew you were a good friend)
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: Thanks, bro.
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+@showLocationBut
+@showAnna
+
+
+@stop

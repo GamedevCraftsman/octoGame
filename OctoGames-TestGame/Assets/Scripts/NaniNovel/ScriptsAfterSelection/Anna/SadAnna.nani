@@ -1,0 +1,36 @@
+@hideLocationBut
+@hideAnna
+@hideValeria
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+
+@char Anna.Anna-angry scale:1.25
+@char Player.Player-serious scale:1.25
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: Phew, don't talk to me, go to your new girl
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: But...
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: I don't want to talk with you!!!
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+@showLocationBut
+@showAnna
+
+@stop

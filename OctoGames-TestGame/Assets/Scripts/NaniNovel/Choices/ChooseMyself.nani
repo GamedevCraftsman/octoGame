@@ -1,0 +1,29 @@
+@char Player.Player-serious transition:Crossfade
+@char Player scale:1.25
+@char Player tint:#828282
+
+@char Anna tint:#ffffff
+;Spawn shocked Anna
+@spawn ShakeCharacter params:Anna,1 wait:false
+;
+@char Anna scale:1.5
+Anna: WHAT?
+@char Anna scale:1.25
+@char Anna tint:#828282
+
+@char Valeria tint:#ffffff
+@char Valeria scale:1.5
+Valeria: You are strange...
+@char Valeria scale:1.25
+@char Valeria tint:#828282
+
+@set SawAnna="ChooseBoss"
+@set SawValeria="ChooseBoss"
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+@showAnna
+@showLocationBut
+
+@stop

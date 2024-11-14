@@ -1,0 +1,20 @@
+{
+    "objectJsonMap": {
+        "keys": [
+            "Naninovel.CameraManager+Settings, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Naninovel.LocalizationManager+Settings, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Naninovel.ScriptPlayer+Settings, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Naninovel.TextPrinterManager+Settings, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Naninovel.AudioManager+Settings, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Naninovel.UIManager+Settings, Elringus.Naninovel.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        ],
+        "values": [
+            "{\"QualityLevel\":4}",
+            "{\"SelectedLocale\":\"uk\"}",
+            "{\"SkipMode\":0}",
+            "{\"BaseRevealSpeed\":0.4080933630466461,\"BaseAutoDelay\":0.40809327363967898}",
+            "{\"MasterVolume\":0.9670431017875671,\"BgmVolume\":1.0,\"SfxVolume\":1.0,\"VoiceVolume\":1.0,\"VoiceLocale\":\"\",\"AuthorVolume\":[]}",
+            "{\"FontName\":\"Aldrich\",\"FontSize\":-1}"
+        ]
+    }
+}

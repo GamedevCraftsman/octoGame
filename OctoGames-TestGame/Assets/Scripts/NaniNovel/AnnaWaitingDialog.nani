@@ -1,0 +1,35 @@
+@hideAnna
+@hideValeria
+@hideLocationBut
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1 wait:false
+@char Anna.Anna-smiled scale:1.25
+@char Player.Player-smiled scale:1.25
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: I’m listening.
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@char Anna tint:#828282
+@char Player scale:1.5
+Player: Nothing.
+@char Player scale:1.25
+@char Anna tint:#ffffff
+
+@char Player tint:#828282
+@char Anna scale:1.5
+Anna: Come back when you know the answer.
+@char Anna scale:1.25
+@char Player tint:#ffffff
+
+@hideAll
+
+@back kitchen.Blinds id:Kitchen time:1
+@showAnna
+@showLocationBut
+
+@stop

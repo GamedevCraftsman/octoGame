@@ -1,0 +1,117 @@
+@hideAnna
+@hideLocationBut
+@hideQuestLog
+@hideAll
+
+@back valeria_office.Crossfades id:ValeriaOffice time:1.5
+@char Valeria.Valeria-smile scale:1.25
+@char Player.Player-smiled scale:1.25
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: Good afternoon, Valeria! How's work going?
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: Good afternoon, {player}! I'm having a bit of trouble, I forgot the password, and to recover it I need to take a test or contact the security department.
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: I don’t want to disappoint you, but it’s already closed for today.
+;Spawn shocked
+@spawn ShakeCharacter params:Valeria,1
+@char Valeria.Shocked
+;
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: Oh, that’s really sad... I was planning to go to a concert tomorrow...
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: Don’t worry. I help you.
+;Make happy
+@char Valeria.Happy transition:Crossfade time:1
+;
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: I would be very grateful to you.
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@startMiniGame
+;Wait start game
+@wait 5
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: Phew, we made it. Thank you for your help, I'm in your debt!
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: You mentioned a concert. What is this concert about?
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+Valeria: Beables. I absolutely love this band.
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: Oh yes, they are really cool.
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+;Make sad
+@char Valeria.Shocked
+;
+Valeria: Though now I'm not sure if I’ll go. The time freed up, but my friend, with whom I was supposed to go, canceled at the last minute. Would you like to join me?
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@char Valeria tint:#828282
+@char Player scale:1.5
+Player: I'll reply to you a bit later, but most likely, yes.
+@char Player scale:1.25
+@char Valeria tint:#ffffff
+
+@char Player tint:#828282
+@char Valeria scale:1.5
+;Make happy
+@char Valeria.Happy transition:Crossfade time:1
+;
+Valeria: I’d be really happy if you went with me!
+@char Valeria scale:1.25
+@char Player tint:#ffffff
+
+@hideAll
+
+@changeQuest
+
+@back valeria_office.Crossfades id:ValeriaOffice time:1.5
+
+@set MyCabinet="SearchTicket"
+@showQuestLog
+@showLocationBut
+@showValeria
+
+@stop
